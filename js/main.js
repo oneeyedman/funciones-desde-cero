@@ -1,11 +1,13 @@
 'use strict';
 
-function ten(str) {
-  for (let i=0;i<10;i++) {
+function ten(str,maxNumber) {
+  for (let i=0; i<maxNumber; i++) {
     console.log(str);
   }
 }
 
-ten('Patata');
-ten('Aguacate');
-ten('Pizza');
+
+ten('patata',10);
+ten('Aguacate', 7);
+ten('Pizza', 50);
+
